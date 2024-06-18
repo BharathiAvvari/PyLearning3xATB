@@ -29,4 +29,12 @@ for i in range(1, n + 1):
     factorial = factorial * i
 print("Factorial of given number 5 is", factorial)
 
-# 4.
+# 4.program to find fibonacci series of given number
+n = 7
+a, b = 0, 1
+fib_sequence = [a, b]
+while len(fib_sequence) <= n:
+    next_num = a + b
+    fib_sequence.append(next_num)
+    a, b = b, next_num
+    print("Fibonacci of given number is", fib_sequence)
