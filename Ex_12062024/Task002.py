@@ -22,3 +22,11 @@ elif side1 != side2 and side2 != side3 and side1 != side3:
 else:
     print("The triangle is isosceles")
 
+# 3.program to find factorial of given number
+n = 5
+factorial = 1
+for i in range(1, n + 1):
+    factorial = factorial * i
+print("Factorial of given number 5 is", factorial)
+
+# 4.
